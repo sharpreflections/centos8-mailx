@@ -1,0 +1,10 @@
+account gmail {
+    set smtp-use-starttls
+    set ssl-verify=ignore
+    set smtp-auth=login
+    set smtp=smtp://smtp.gmail.com:587
+    set from="EMAIL"
+    set smtp-auth-user=AUTHMAIL
+    set smtp-auth-password=PASSWORD
+    set ssl-verify=ignore
+}
